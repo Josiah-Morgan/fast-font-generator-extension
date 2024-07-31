@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="popup.css">
+        <script src="jquery-3.7.1.min.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="header-div">
+            <header>Font: Bold</header>
+            <!-- <button type="button" id="settings-button">
+                https://www.flaticon.com/free-icons/settings Settings icons created by Freepik - Flaticon -->
+                <!-- <img src="images/gear.png" height="25px" width="25px" alt="Gear icon for settings"> -->
+                <!-- make a drop down menu when clicked -->
+            <!-- </button> -->
+            <button type="button" class="quality-life-buttons" id="copy-button">Copy</button>
+            <button type="button" class="quality-life-buttons" id="clear-button">Clear</button>
+        </div>
+
+
+        <textarea id="textbox" placeholder="Starting typing... Then use the arrows" cols="34" rows="2"></textarea>
+       
+
+        <div id="arrow-buttons">
+            <button type="button" style="border-radius: 5px 0px 0px 5px;">
+                <img src="images/arrow-left-solid.svg" width="20px" height="20px" style="text-align: center;" alt="Left arrow to change font">
+            </button>
+            <button type="button" style="border-left: 0px;  border-radius: 0px 5px 5px 0px;"> <!-- To fix overlapping -->
+                <img src="images/arrow-right-solid.svg" width="20px" height="20px" style="text-align: center;" alt="Right arrow to change font">
+            </button>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>

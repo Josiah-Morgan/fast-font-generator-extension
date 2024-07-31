@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Fast Font Generator",
+    "description": "Quickly generate fonts",
+    "version": "1.0",
+    "icons": {
+            "16": "extension-icons/ffg_logo_16x16.png",
+            "32": "extension-icons/ffg_logo_32x32.png",
+            "48": "extension-icons/ffg_logo_48x48.png",
+            "128": "extension-icons/ffg_logo_128x128.png"
+        },
+    "action": {
+        "default_icon": {
+            "16": "extension-icons/ffg_logo_16x16.png",
+            "32": "extension-icons/ffg_logo_32x32.png",
+            "48": "extension-icons/ffg_logo_48x48.png",
+            "128": "extension-icons/ffg_logo_128x128.png"
+        },
+        "default_popup": "popup.html"
+    }
+}

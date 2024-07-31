@@ -1,0 +1,80 @@
+:root {
+    --background-color: #E8F0FF;
+    --accent-color: #113881;
+}
+
+html {
+    width: 350px;
+    background-color: var(--background-color);
+}
+
+/* Header and buttons in header section */
+
+#header-div header {
+    width: 50%;
+    float: left;
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 450;
+    padding-top: 5px;
+}
+
+#header-div button {
+    width: 13%;
+    float: right;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#header-div .quality-life-buttons {
+    margin: 6px 2px 0px 0px;
+    padding: 0px 3px 0px 3px;
+}
+
+
+/* #header-div #settings-button {
+    border: none;
+    background-color: inherit;
+} */
+
+/* Box where you type */
+
+#textbox {
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-right: 7px;
+    color: black;
+    font-size: large;
+
+}
+
+#textbox:focus {
+    outline: var(--accent-color);
+}
+
+/* Buttons used to change font */
+
+#arrow-buttons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#arrow-buttons button {
+    width: 50%;
+    height: 40px;
+    border: 2px solid var(--accent-color);
+    background-color: white;
+    font-size: 55;
+    cursor: pointer;
+}
+
+#arrow-buttons button:hover {
+    background-color: lightgray;
+    /* make ligher */
+}
