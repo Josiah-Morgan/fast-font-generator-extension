@@ -394,9 +394,6 @@ const underlined_map = {
     "8": "8̲", "9": "9̲"
 };
 
-// github
-// post to extensitond store?
-
 // 1234567890abcdefghijkmnlopqrstuvqxyzABCDEFGHIJKMNLOPQRSTUVWXYZ
 // https://lingojam.com/CircledTextGenerator
 
@@ -434,11 +431,6 @@ function applyFont(letter_map, text) {
 
     return font_string;
 }
-
-
-// Makes it where you can start typing on the textbox as soon as the extension is opened
-textbox.focus();
-
 
 // Font converter
 textbox.on('input', function() {
@@ -546,6 +538,10 @@ $(document).ready(function() {
     textbox.focus(function() {
         textbox_blured = false;
     })
+
+    // Makes it where you can start typing on the textbox as soon as the extension is opened
+    textbox.focus();
+
 });
 
 
