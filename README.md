@@ -10,4 +10,4 @@ Features:
 
 Link to extension: https://microsoftedge.microsoft.com/addons/detail/fast-font-generator/jbgbakofdniaoahfadgaoalhgmngniai 
 Currently only on Edge
-Simple, but I think it is a pretty cool program. It is different than the traditional font generator style with the arrow buttons, instead of the long list of text
+Simple, but I think it is a pretty cool program. It is little different than the traditional font generator style with the arrow buttons, instead of the long list of text
