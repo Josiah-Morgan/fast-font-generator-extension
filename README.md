@@ -9,5 +9,5 @@ Features:
 - Mix fonts, you can easily use multiple fonts in the same word or sentence
 
 Link to extension: https://microsoftedge.microsoft.com/addons/detail/fast-font-generator/jbgbakofdniaoahfadgaoalhgmngniai 
-Currently only on Edge
+Currently only on Edge 
 Simple, but I think it is a pretty cool program. It is little different than the traditional font generator style with the arrow buttons, instead of the long list of text
